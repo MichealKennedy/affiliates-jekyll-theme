@@ -12,8 +12,6 @@ google_analytics: ''
 disqus: 'demowebsite'
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
 
-permalinks: '/:title/'
-
 # Authors
 authors:
   mike:
@@ -46,10 +44,11 @@ jekyll-archives:
   enabled:
     - categories
   layout: archive
-  permalinks:
-    category: '/:categories/:name/'
-    post: '/:title/'
+  #permalinks:
+    #category: '/:categories/:name/'
     
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
 # Other
 markdown: kramdown
 highlighter: rouge
