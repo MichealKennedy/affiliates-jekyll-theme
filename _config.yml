@@ -44,10 +44,15 @@ jekyll-archives:
   enabled:
     - categories
   layout: archive
-  #permalinks:
-    #category: '/:categories/:name/'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+    post: '/:name/'
     
-permalink: /:year/:month/:day/:title:output_ext
+# permalink: /:year/:month/:day/:title:output_ext
 
 # Other
 markdown: kramdown
