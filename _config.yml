@@ -47,7 +47,7 @@ jekyll-archives:
   #permalinks:
     #category: '/:categories/:name/'
     
-permalink: /:categories/:year/:month/:day/:title:output_ext
+permalink: /:year/:month/:day/:title:output_ext
 
 # Other
 markdown: kramdown
