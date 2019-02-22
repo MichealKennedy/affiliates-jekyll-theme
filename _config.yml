@@ -50,9 +50,8 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
-    post: '/:name/'
     
-# permalink: /:year/:month/:day/:title:output_ext
+permalink: /:title:output_ext
 
 # Other
 markdown: kramdown
