@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "13 Reasons Why We Moved Onto A Sailboat"
-author: sal
-permalink: /treeeeez/
+author: mike
+permalink: /why
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 ---
